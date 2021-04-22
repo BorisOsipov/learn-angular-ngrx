@@ -8,3 +8,8 @@ export const isSubmittingSelector = createSelector(
   authFeatureSelectors,
   (authState: AuthStateInterface) => authState.isSubmitting
 );
+
+export const validationErrorSelector = createSelector(
+  authFeatureSelectors,
+  (authState: AuthStateInterface) => authState.validationErrors
+);
