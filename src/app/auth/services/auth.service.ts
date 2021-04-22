@@ -1,12 +1,12 @@
 import {Injectable} from '@angular/core';
-import {RegisterRequestInterface} from '../types/registerRequest.interface';
+import {RegisterRequestInterface} from '../types/register-request.interface';
 import {Observable} from 'rxjs';
 import {CurrentUserInterface} from '../../shared/types/curentUser.interface';
 import {HttpClient} from '@angular/common/http';
-import {AuthResponseInterface} from '../types/authResponse.interface';
+import {AuthResponseInterface} from '../types/auth-response.interface';
 import {environment} from '../../../environments/environment';
 import {map} from 'rxjs/operators';
-import {LoginRequestInterface} from '../types/loginRequest.interface';
+import {LoginRequestInterface} from '../types/login-request.interface';
 
 @Injectable()
 export class AuthService {

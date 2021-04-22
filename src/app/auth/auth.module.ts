@@ -9,7 +9,7 @@ import {reducers} from './store/reducer';
 import {AuthService} from './services/auth.service';
 import {EffectsModule} from '@ngrx/effects';
 import {RegisterEffect} from './store/effects/register.effect';
-import {BackendErrorMessagesModule} from '../shared/modules/backendErrorMessages/backendErrorMessages.module';
+import {BackendErrorMessagesModule} from '../shared/modules/backendErrorMessages/backend-error-messages.module';
 import {PersistenceService} from '../shared/services/persistence.service';
 import {LoginEffect} from './store/effects/login.effect';
 import {LoginComponent} from './components/login/login.component';
