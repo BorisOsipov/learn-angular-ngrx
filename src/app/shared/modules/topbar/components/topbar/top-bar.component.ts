@@ -1,6 +1,6 @@
 import {Component, OnInit} from '@angular/core';
 import {Observable} from 'rxjs';
-import {CurrentUserInterface} from '../../../../types/curentUser.interface';
+import {CurrentUserInterface} from '../../../../types/curent-user.interface';
 import {select, Store} from '@ngrx/store';
 import {currentUserSelector, isAnonymousSelector, isLoggedInSelector} from '../../../../../auth/store/selectors';
 

@@ -3,7 +3,7 @@ import {Actions, createEffect, ofType} from '@ngrx/effects';
 import {catchError, map, switchMap} from 'rxjs/operators';
 import {of} from 'rxjs';
 import {AuthService} from '../../services/auth.service';
-import {CurrentUserInterface} from '../../../shared/types/curentUser.interface';
+import {CurrentUserInterface} from '../../../shared/types/curent-user.interface';
 import {PersistenceService} from '../../../shared/services/persistence.service';
 import {getCurrentUserAction, getCurrentUserFailureAction, getCurrentUserSuccessAction} from '../actions/get-current-user.action';
 

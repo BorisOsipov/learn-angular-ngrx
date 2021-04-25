@@ -1,8 +1,8 @@
 import {createAction, props} from '@ngrx/store';
 import {ActionTypes} from '../action-types';
 import {RegisterRequestInterface} from '../../types/register-request.interface';
-import {CurrentUserInterface} from '../../../shared/types/curentUser.interface';
-import {BackendErrorsInterface} from '../../../shared/types/backendErrors.interface';
+import {CurrentUserInterface} from '../../../shared/types/curent-user.interface';
+import {BackendErrorsInterface} from '../../../shared/types/backend-errors.interface';
 
 export const registerAction = createAction(
   ActionTypes.REGISTER,

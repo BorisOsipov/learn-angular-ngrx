@@ -6,7 +6,7 @@ import {catchError, map, switchMap, tap} from 'rxjs/operators';
 import {of} from 'rxjs';
 import {AuthService} from '../../services/auth.service';
 import {loginAction, loginFailureAction, loginSuccessAction} from '../actions/login.action';
-import {CurrentUserInterface} from '../../../shared/types/curentUser.interface';
+import {CurrentUserInterface} from '../../../shared/types/curent-user.interface';
 import {PersistenceService} from '../../../shared/services/persistence.service';
 
 

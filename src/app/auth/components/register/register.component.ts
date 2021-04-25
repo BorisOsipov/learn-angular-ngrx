@@ -6,7 +6,7 @@ import {Observable} from 'rxjs';
 import {isSubmittingSelector, validationErrorSelector} from '../../store/selectors';
 import {AuthService} from '../../services/auth.service';
 import {RegisterRequestInterface} from '../../types/register-request.interface';
-import {BackendErrorsInterface} from '../../../shared/types/backendErrors.interface';
+import {BackendErrorsInterface} from '../../../shared/types/backend-errors.interface';
 
 @Component({
   selector: 'mc-register',
