@@ -1,7 +1,7 @@
-import {GetFeedResponseNterface} from '../modules/feed/types/get-feed-response.nterface';
+import {GetFeedResponseInterface} from '../modules/feed/types/get-feed-response.interface';
 
 export interface FeedStateInterface {
   isLoading: boolean;
   error: string | null;
-  data: GetFeedResponseNterface | null;
+  data: GetFeedResponseInterface | null;
 }

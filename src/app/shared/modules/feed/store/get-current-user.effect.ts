@@ -4,7 +4,7 @@ import {catchError, map, switchMap} from 'rxjs/operators';
 import {of} from 'rxjs';
 import {getFeedAction, getFeedFailureAction, getFeedSuccessAction} from './get-feed.action';
 import {FeedService} from '../services/feed.service';
-import {GetFeedResponseNterface} from '../types/get-feed-response.nterface';
+import {GetFeedResponseInterface} from '../types/get-feed-response.interface';
 
 @Injectable()
 export class GetFeedEffect {
@@ -12,7 +12,7 @@ export class GetFeedEffect {
     ofType(getFeedAction),
     switchMap(({url}) => {
       return this.feedService.getFeed(url).pipe(
-        map((feed: GetFeedResponseNterface) => {
+        map((feed: GetFeedResponseInterface) => {
             return getFeedSuccessAction({feed});
           }
         ),
